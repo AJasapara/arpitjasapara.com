@@ -1,0 +1,23 @@
+[debug] [2017-09-18T06:51:23.189Z] ----------------------------------------------------------------------
+[debug] [2017-09-18T06:51:23.189Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\lordt\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2017-09-18T06:51:23.189Z] CLI Version:   3.11.0
+[debug] [2017-09-18T06:51:23.189Z] Platform:      win32
+[debug] [2017-09-18T06:51:23.189Z] Node Version:  v6.11.3
+[debug] [2017-09-18T06:51:23.193Z] Time:          Sun Sep 17 2017 23:51:23 GMT-0700 (Pacific Daylight Time)
+[debug] [2017-09-18T06:51:23.193Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-09-18T06:51:23.206Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-09-18T06:51:23.206Z] > authorizing via signed-in user
+[debug] [2017-09-18T06:51:23.209Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/my-website-a78dd  
+ Sun Sep 17 2017 23:51:23 GMT-0700 (Pacific Daylight Time)
+[debug] [2017-09-18T06:51:23.617Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-18T06:51:23.617Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/my-website-a78dd/tokens  
+ Sun Sep 17 2017 23:51:23 GMT-0700 (Pacific Daylight Time)
+[debug] [2017-09-18T06:51:24.073Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'my-website-a78dd'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing public directory for upload...
+[debug] [2017-09-18T06:51:24.739Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/my-website-a78dd/uploads/-KuIkMv2lVKbdkV-x4F8?fileCount=3&message=  
+ Sun Sep 17 2017 23:51:24 GMT-0700 (Pacific Daylight Time)
