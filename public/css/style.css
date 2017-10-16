@@ -27,3 +27,18 @@ header,
     -o-background-size: cover;
     background-size: cover;
 }
+
+html,
+body,
+header,
+#portfolio {
+    height: 100%;
+}
+
+#portfolio {
+    background: url("/img/mountain.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
